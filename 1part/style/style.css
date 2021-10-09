@@ -1,0 +1,36 @@
+img {
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+div figure {
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    background: blue;
+    opacity: 100%;
+    margin: 10px 10px 10px 95px;
+    transition: all ease-in-out 0.3s;
+}
+
+figure:hover {
+    background: #2a69a6;
+}
+
+.blocks {
+    display: inline-block;
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    background: repeating-linear-gradient(
+        90deg,
+        #ffe6e6 12px,
+        #ffe6e6 55px,
+        #fff 10px,
+        #fff 75px
+      );
+}
+
+.split {
+    display: flex;
+}
